@@ -1,0 +1,104 @@
+body {
+  background-image: url("images/background_image.jpg");
+  background-size: cover;
+  font-family: 'PT Sans', sans-serif;
+  color: #2A3C31 ;
+  text-align: center;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.card-light {
+  margin: 15px;
+  padding: 15px;
+  border-radius: 6px;
+  background-color: #ABC4B4;
+  box-shadow: inset -10px -10px 15px rgba(255, 255, 255, 0.5),
+  inset 10px 10px 15px rgba(70, 70, 70, 0.12);
+  opacity: 0.8;
+}
+
+.card-light:hover {
+  box-shadow: -5px -5px 10px rgba(255,255,255,0.5),
+  5px 5px 10px rgba(70,70,70,0.12);
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+h1 {
+  font-size: 45px;
+  opacity: 0.8;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 2px;
+}
+
+h2 {
+  opacity: 0.7;
+  line-height: 20px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: #dce9fc;
+}
+
+.button_green {
+  border: none;
+  background-color: #2A3C31;
+  color: #dce9fc;
+  border-radius: 4px;
+  font-size: 20px;
+  padding: 6px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.button_green:hover {
+  background-color: #111813;
+}
+
+.icons {
+  font-size: 30px;
+  margin: 10px;
+  color: #2A3C31;
+}
+
+.icons:hover {
+ color: #111813;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 350px;
+  }
+}
